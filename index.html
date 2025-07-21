@@ -2,9 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Button Project</title>
+    <body>
       <div class="container">
         <img src="https://www.deviantart.com/starshinesuckerpunch/art/Precious-Gems-Clipart-Pack-707198717" alt="colors"/>
     <p class="instruction">
@@ -15,16 +17,16 @@
     <label>red:</label>
     <input type="range" id="rangeRed" value="0" min="0" max="255" />
 
-    <label>Green:</label>
-    <input type="range" id="rangeGreen" value="0" min="0" max="255" />
+    <label>green:</label>
+    <input type="range" id="rangeGreen" value="0" min="139" max="255" />
     <br />
     <label>blue:</label>
-    <input type="range" id="rangeBlue" value="0" min="0" max="255" />
+    <input type="range" id="rangeBlue" value="0" min="168" max="255" />
     <br />
   </head>
   <button class="large red button" onclick="btnPressed()">Button</button>
   <p>Clicks: <a id="clicks">0</a></p>
-  <body>
+  
   </div>
 
     <script src="script.js"></script>
