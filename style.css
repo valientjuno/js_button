@@ -1,3 +1,32 @@
-body {
+div {
+  border: double;
+  font-size: 15px;
   align: center;
+  text-align: center;
+}
+p {
+  font-size: larger;
+}
+
+.container {
+  text-align: center;
+  background-color: honeydew;
+}
+
+button {
+  color: whitesmoke;
+  border: p.outset;
+  background-color: black;
+  border-radius: 5px;
+  outline-color: wheat;
+}
+img {
+  border: groove;
+  border-radius: 53%;
+  border-color: blanchedalmond;
+  margin-top: 50px;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
