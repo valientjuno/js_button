@@ -14,9 +14,10 @@ p {
 }
 
 button {
+  font-size: x-large;
   color: whitesmoke;
   border: p.outset;
-  background-color: black;
+  background-color: red;
   border-radius: 5px;
   outline-color: wheat;
 }
