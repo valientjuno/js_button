@@ -1,5 +1,4 @@
-element.addEventListener("click, myFunction");
-
-function myFunction() {
-  document.getElementById("button").innerHTML = "click";
+function addNums(num1, num2) {
+  console.log(num1 + num2);
 }
+addNums(0, 1);

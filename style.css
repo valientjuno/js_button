@@ -1,16 +1,21 @@
 div {
   border: double;
+  border-width: 10px;
+  border-radius: 520px;
   font-size: 15px;
-  align: center;
+  border-color: black;
   text-align: center;
 }
-p {
+p,
+h2 {
   font-size: larger;
+  block-size: auto;
 }
 
 .container {
+  margin: 45px;
   text-align: center;
-  background-color: honeydew;
+  background-color: darkblue;
 }
 
 button {
@@ -30,4 +35,6 @@ img {
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background-color: skyblue;
+  color: whitesmoke;
 }
